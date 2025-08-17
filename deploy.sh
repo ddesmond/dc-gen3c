@@ -36,6 +36,12 @@ cd /opt
 git clone --recursive --depth 1 https://github.com/nv-tlabs/GEN3C.git gen3c
 export APPROOT=/opt/gen3c
 
+
+echo "---------------get models in bg-------------------"
+cd $DCAPP_PATH
+source ./models.sh
+
+
 echo "----------------------------------"
 echo "Run: setup conda "
 cd $DCAPP_PATH
