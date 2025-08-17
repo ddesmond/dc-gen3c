@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cd /opt/gen3c
 # Create the cosmos-predict1 conda environment.
 conda env create --file cosmos-predict1.yaml
 # Activate the cosmos-predict1 conda environment.
