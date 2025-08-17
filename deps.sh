@@ -20,7 +20,7 @@ conda init --all
 source ~/.bashrc
 
 echo "Run: Get channels conda"
-cd /opt/diffusion-pipe
+cd /opt/dc-gen3c
 conda config --add channels conda-forge
 conda config --add channels defaults
 
@@ -28,9 +28,5 @@ echo "Run: Accept TOS channels conda"
 conda tos accept --override-channels --channel defaults
 conda tos accept --override-channels --channel conda-forge
 
-echo "Run: create py3.12 + env in conda"
-conda create -n gen3c python=3.12 --yes
 
-echo "Run: Activate conda env"
-conda activate gen3c
 

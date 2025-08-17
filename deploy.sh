@@ -45,5 +45,9 @@ bash ./setup_gen3c_deps.sh
 echo "----------------------------------"
 echo "Run: install extras "
 cd $DCAPP_PATH
-bash ./setup_gen3c_deps.sh
+bash ./extras.sh
 
+echo "----------------------------------"
+echo "Run: install extras "
+cd $DCAPP_PATH
+bash ./run_gui.sh
