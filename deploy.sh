@@ -21,6 +21,11 @@ cd /opt/dc-gen3c
 git pull
 export DCAPP_PATH=/opt/dc-gen3c
 
+
+
+echo "------------- LOGDY ---------------------"
+source tools/lodgy.sh
+
 echo "----------------------------------"
 echo "Setting up YUM YUM !"
 
