@@ -3,5 +3,6 @@
 cd /opt/gen3c
 
 conda activate cosmos-predict1
-cd GEN3C/gui
+cd gui
+pip install fastapi
 pip install -r ./requirements.txt
