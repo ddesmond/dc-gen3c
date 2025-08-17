@@ -25,7 +25,6 @@ echo "----------------------------------"
 echo "Setting up YUM YUM !"
 
 
-
 echo "----------------------------------"
 echo "Run: setup repo "
 cd /opt
