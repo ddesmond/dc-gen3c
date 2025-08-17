@@ -28,5 +28,7 @@ echo "Run: Accept TOS channels conda"
 conda tos accept --override-channels --channel defaults
 conda tos accept --override-channels --channel conda-forge
 
+source ~/.bashrc
+
 
 

@@ -34,19 +34,22 @@ export APPROOT=/opt/gen3c
 echo "----------------------------------"
 echo "Run: setup conda "
 cd $DCAPP_PATH
-bash ./deps.sh
+source ./deps.sh
 
 echo "----------------------------------"
 echo "Run: install deps conda and python"
+source ~/.bashrc
 cd $DCAPP_PATH
-bash ./setup_gen3c_deps.sh
+source ./setup_gen3c_deps.sh
 
 echo "----------------------------------"
 echo "Run: install extras "
+source ~/.bashrc
 cd $DCAPP_PATH
-bash ./extras.sh
+source ./extras.sh
 
 echo "----------------------------------"
 echo "Run: install extras "
+source ~/.bashrc
 cd $DCAPP_PATH
-bash ./run_gui.sh
+source ./run_gui.sh
