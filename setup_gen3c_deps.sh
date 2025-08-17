@@ -3,7 +3,6 @@ cd /opt/gen3c
 source ~/.bashrc
 
 # Create the cosmos-predict1 conda environment.
-conda create -n dcgen3d python=3.12 --yes
 conda env create --file cosmos-predict1.yaml
 # Activate the cosmos-predict1 conda environment.
 conda activate cosmos-predict1
