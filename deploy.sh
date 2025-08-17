@@ -8,6 +8,8 @@ echo "Setup work ENVS"
 # SYSTEM
 export HOME="/root"
 export PIP_ROOT_USER_ACTION=ignore
+export TORCH_CUDA_ARCH_LIST="8.6"
+# setup torch build deps for GPU
 
 echo "--------------- pre aria -------------------"
 apt update -y && apt install -y aria2
